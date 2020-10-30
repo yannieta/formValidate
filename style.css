@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 40px;
+    box-shadow: 0 10px 20px 0 rgba(123, 120, 248, 0.5);
+    border-radius: 10px;
+    border: none;
+    color: #7e95cc;
+    flex-wrap: wrap;
+}
+
+p {
+    padding: 10px 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.usertext-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.usertext-group {
+    flex: 45%;
+}
+
+.email-group {
+    flex: 100%;
+}
+
+.email-group .email {
+    padding: 15px 40px;
+    width: 100%;
+}
+
+.password-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button {
+    color: white;
+    padding: 15px 40px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    background-color: #7b78f8;
+    box-shadow: 0 10px 20px 0 rgba(123, 120, 248, 0.5);
+}
+
+input {
+    background-color: #f5f6fd;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+}
+
+.red {
+    color: red;
+}
+
+.passwrod-text {
+    display: flex;
+    flex: 45%;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.city-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+select {
+    border: none;
+    background-color: #f5f6fd;
+    padding: 15px 22px;
+    border-radius: 15px;
+    color: grey;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.info-text-birth {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.info-text-sex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-text-sex-radio {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.btn {
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .user-text {
+        width: 100%;
+    }
+    .password-text {
+        width: 100%;
+    }
+}
